@@ -57,7 +57,7 @@ p.setCantidad(producto.getCantidad());
     return null;
 }
 
-@DeleteMapping("/{idUser}")
+@DeleteMapping("/{idProducto}")
 public Producto eliminarProductoxd(@PathVariable int idProducto){
     for (Producto p : productos){
         if (p.getIdProducto() == idProducto) {
