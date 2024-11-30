@@ -17,7 +17,7 @@ import com.proyect.demo.models.Usuario;
 @RestController
 public class UsuarioController {
    private List<Usuario> usuarios = new ArrayList<>(
-        Arrays.asList(new Usuario(123, "Oscarina", "Romero"))
+        Arrays.asList(new Usuario(123, "Luis", "Diaz"))
     );
 
 @GetMapping("/usuarios")
